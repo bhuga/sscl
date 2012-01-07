@@ -1,0 +1,7 @@
+RVM_ENV="ruby-1.9.3@sscl"
+if [[ -d "${rvm_path:-$HOME/.rvm}/environments" \
+  && -s "${rvm_path:-$HOME/.rvm}/environments/${RVM_ENV}" ]] ; then
+  \. "${rvm_path:-$HOME/.rvm}/environments/${RVM_ENV}"
+else
+  rvm --create use  "${RVM_ENV}"
+fi
