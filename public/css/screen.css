@@ -159,20 +159,24 @@ sup {
     height           : 296px;
     padding          : 3px;
 }
-
-.sponsor-logos li {
-    float         : left;
-    height        : 112px;
-    margin-bottom : 36px;
-    margin-right  : 25px;
-    padding       : 3px;
-    text-align    : center;
-    width         : 112px;
+#sponsors ul {
+  text-align: center;
+}
+#sponsors li {
+  text-align: center;
+  display: inline-block;
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 4%;
+}
+#sponsors p {
+  text-align: center;
+  vertical-align: middle;
+}
+#sponsors img {
+  height: 200px;
 }
 
-.sponsor-logos li:last-child {
-    margin-right: 0;
-}
 .friendly-guy {
   height: 250px;
   width: 250px;
