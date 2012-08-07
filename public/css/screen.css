@@ -109,16 +109,17 @@ header .content {
     font-weight: bold;
 }
 
-#dapper-left, #dapper-right {
+#knight-left, #knight-right {
     position : absolute;
     top      : 0;
+    height   :160px;
 }
 
-#dapper-left {
+#knight-left {
     left: 180px;
 }
 
-#dapper-right {
+#knight-right {
     right: 180px;
 }
 
