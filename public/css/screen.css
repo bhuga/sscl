@@ -142,7 +142,14 @@ header .content {
     font-size        : 16px;
     font-style       : italic;
     line-height      : 18px;
-    width            : 320px;
+    width            : 35%;
+    margin           : 16px 0;
+}
+
+@media only screen and (max-width: 700px) {
+    #teaser li {
+        width: 100%;
+    }
 }
 
 i {
