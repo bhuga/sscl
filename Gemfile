@@ -1,4 +1,4 @@
-source :rubygems
+source 'https://rubygems.org'
 
 gem "rack",         "1.3.3"
 gem "rack-rewrite", "1.1.0"
