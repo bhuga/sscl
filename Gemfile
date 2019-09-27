@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem "rack",         "1.3.3"
+gem "rack",         "1.6.11"
 gem "rack-rewrite", "1.1.0"
 gem "rake",         "0.9.2"
 
